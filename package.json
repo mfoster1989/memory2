@@ -1,0 +1,25 @@
+{
+  "name": "memory1",
+  "version": "0.0.1",
+  "description": "You're making an API that can list, create, read, update, and delete a collection of coffee. The problem is that you're missing a critical part of the API-- the database! Create a database for this API, and interface with it via [Knex.js](https://knexjs.org).",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Kyle Coberly",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "supertest": "^3.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
